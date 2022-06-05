@@ -107,14 +107,14 @@ function App() {
           <Scoreboard player={2} score={p2Score} />
         </Grid>
         
-        <Grid item xs={3}/>
-        <Grid item xs={3}>
+        <Grid item xs={3.5}/>
+        <Grid item xs={2.5}>
           <ResetButton buttonText="new game" onClick={newGame}/>
         </Grid>
-        <Grid item xs={3}>
+        <Grid item xs={2.5}>
           <ResetButton buttonText="reset scores" onClick={resetScores}/>
         </Grid>
-        <Grid item xs={3}/>
+        <Grid item xs={3.5}/>
 
       </Grid>
     </Grid>
